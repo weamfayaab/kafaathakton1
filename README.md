@@ -4,7 +4,7 @@
 
 ## 🔗 لوحة المعلومات التفاعلية
 
-### [فتح لوحة بوصلة كبار السن](https://weamfayaab.github.io/kafaathakton1/outputs/dashboard/)
+### [فتح لوحة بوصلة كبار السن](https://weamfayaab.github.io/lubbproject/outputs/dashboard/)
 
 ## أهداف المشروع
 - فحص جودة البيانات وتوثيق الملاحظات المهمة.
@@ -27,9 +27,8 @@
 
 ## هيكل المشروع
 ```text
-kafaathakton1/
+lubbproject/
 ├── README.md
-├── analysis.ipynb
 ├── ai_usage_log.md
 ├── original_analysis/
 │   └── FinalOne.ipynb
@@ -47,11 +46,10 @@ kafaathakton1/
 ## طريقة تشغيل التحليل
 
 ### Google Colab
-1. افتح `analysis.ipynb`.
+1. افتح `original_analysis/FinalOne.ipynb`.
 2. افتحه باستخدام Google Colab.
-3. تأكد من توفر `data_clean/FinalData.csv` بنفس المسار.
+3. تأكد من توفر ملفات البيانات المطلوبة بنفس المسارات المستخدمة في النوتبوك.
 4. اختر **Runtime → Run all**.
-5. ستظهر فحوصات الجودة والتحليل والرسوم، ويتم حفظ الرسوم داخل `outputs/figures/`.
 
 ### Jupyter Notebook
 ثبت المتطلبات:
@@ -64,7 +62,7 @@ pip install pandas numpy matplotlib openpyxl jupyter
 jupyter notebook
 ```
 
-افتح `analysis.ipynb` ثم اختر **Run All**.
+افتح `original_analysis/FinalOne.ipynb` ثم اختر **Run All**.
 
 ## تشغيل الداشبورد
 يمكن فتح النسخة المنشورة مباشرة من الرابط أعلى الصفحة، أو فتح الملف محليًا من:
@@ -74,8 +72,7 @@ jupyter notebook
 باستخدام **Chrome أو Edge**.
 
 ## مخرجات المشروع
-- `FinalOne.ipynb`: ملف تنظيف وتجهيز البيانات قبل التحليل النهائي.
-- `analysis.ipynb`: التحليل وفحوصات الجودة والرسوم.
+- `FinalOne.ipynb`: ملف التحليل وتنظيف وتجهيز البيانات.
 - `FinalData.csv`: البيانات النهائية المستخدمة في التحليل.
 - `outputs/dashboard/index.html`: الداشبورد التنفيذي المنشور.
 - `executive_summary.pdf`: الملخص التنفيذي.
