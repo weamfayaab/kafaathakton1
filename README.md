@@ -4,7 +4,7 @@
 
 ## 🔗 لوحة المعلومات التفاعلية
 
-### [فتح لوحة بوصلة كبار السن](https://weamfayaab.github.io/kafaathakton1/lubb-submission/outputs/dashboard/Lubb_Dashboard.html)
+### [فتح لوحة بوصلة كبار السن](https://weamfayaab.github.io/kafaathakton1/outputs/dashboard/)
 
 ## أهداف المشروع
 - فحص جودة البيانات وتوثيق الملاحظات المهمة.
@@ -27,8 +27,8 @@
 
 ## هيكل المشروع
 ```text
-lubb-submission/
-├── README_UPDATED.md
+kafaathakton1/
+├── README.md
 ├── analysis.ipynb
 ├── ai_usage_log.md
 ├── original_analysis/
@@ -38,7 +38,8 @@ lubb-submission/
 ├── outputs/
 │   ├── figures/
 │   └── dashboard/
-│       └── Lubb_Dashboard.html
+│       ├── index.html
+│       └── Lubb_Dashboard_آخر_تعديل_2.html
 └── report/
     └── executive_summary.pdf
 ```
@@ -68,7 +69,7 @@ jupyter notebook
 ## تشغيل الداشبورد
 يمكن فتح النسخة المنشورة مباشرة من الرابط أعلى الصفحة، أو فتح الملف محليًا من:
 
-`outputs/dashboard/Lubb_Dashboard.html`
+`outputs/dashboard/index.html`
 
 باستخدام **Chrome أو Edge**.
 
@@ -76,7 +77,7 @@ jupyter notebook
 - `FinalOne.ipynb`: ملف تنظيف وتجهيز البيانات قبل التحليل النهائي.
 - `analysis.ipynb`: التحليل وفحوصات الجودة والرسوم.
 - `FinalData.csv`: البيانات النهائية المستخدمة في التحليل.
-- `Lubb_Dashboard.html`: الداشبورد التنفيذي.
+- `outputs/dashboard/index.html`: الداشبورد التنفيذي المنشور.
 - `executive_summary.pdf`: الملخص التنفيذي.
 - `ai_usage_log.md`: توثيق استخدام الذكاء الاصطناعي والتحقق البشري.
 
