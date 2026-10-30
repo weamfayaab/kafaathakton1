@@ -65,7 +65,9 @@ jupyter notebook
 ## تشغيل الداشبورد
 لا يحتاج الداشبورد إلى VS Code. افتح:
 
-`outputs/dashboard/Lubb_Dashboard.html`
+## 🔗 لوحة المعلومات التفاعلية
+
+[فتح لوحة بوصلة كبار السن](https://weamfayaab.github.io/kafaathakton1/lubb-submission/outputs/dashboard/Lubb_Dashboard.html)
 
 مباشرة باستخدام **Chrome أو Edge**. الداشبورد يعرض المؤشرات الرئيسية والفلاتر والرسوم وData Labels وملاحظة جودة البيانات.
 
