@@ -35,13 +35,16 @@ lubbproject/
 ├── data_clean/
 │   └── FinalData.csv
 ├── original_analysis/
-│   ├── step1.ipynb
-│   ├── step2.ipynb
-│   └── ملفات البيانات الأصلية/
-│       ├── بيانات 2021
-│       ├── بيانات 2024
-│       ├── بيانات 2025
-│       └── بيانات 2026 Q2
+│   ├── التحليل/
+│   │   ├── step1.ipynb
+│   │   └── step2.ipynb
+│   └── ملفات الاكسل/
+│       ├── 2025 elderly benefiting from social care homes.xlsx
+│       ├── elderly benefiting from social care homes 2024.xlsx
+│       ├── social care homes Q22026.xlsx
+│       ├── The number of the elderly benefiting from social care homes for the year 2021.xls
+│       ├── كل_البيانات.xlsx
+│       └── FinalData.csv
 ├── outputs/
 │   ├── dashboard/
 │   │   └── Lubb_Dashboard_آخر_تعديل_2.html
